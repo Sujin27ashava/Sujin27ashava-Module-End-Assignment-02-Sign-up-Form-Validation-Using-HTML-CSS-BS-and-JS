@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F0FAFA;
+  
+}
+.container{
+    /* background: linear-gradient(150deg,lightblue,aqua); */
+    font-family: sans-serif;
+}
+form{
+    width: 25rem;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg,blue);
+}
+.row:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,7);
+}
+button:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,3);
+}
